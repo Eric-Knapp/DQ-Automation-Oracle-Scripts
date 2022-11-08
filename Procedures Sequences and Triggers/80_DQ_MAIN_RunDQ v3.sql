@@ -2,7 +2,6 @@ CREATE or REPLACE PROCEDURE DCUA166.DQP_RUN_CHECKS
 
 -- Main Procedure to Run each CDE Fault Test Procedure and Aggregate Data into DQ_SCORE TABLE
 -- This should be run via a batch job and scheduled
--- Version 2.1 szf
 
 IS
     PROC_NAME VARCHAR2(40):= 'DQP_RUN_CHECKS'; 
