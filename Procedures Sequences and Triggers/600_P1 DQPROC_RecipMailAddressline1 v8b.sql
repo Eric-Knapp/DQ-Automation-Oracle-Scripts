@@ -1,7 +1,7 @@
 CREATE or REPLACE PROCEDURE DCUA166.DQP_RECI_MAIL_ADDR_LINE_1(V_Run_Number INTEGER, V_Run_Date Date, V_dePloyFlag VARCHAR2)
 -- DQ Procedure for CDE Recipient Mailing Address Address Line 1
 -- input parameters are run number from seq generator, Run Date, and V_dePloyFlag 'T' or 'P'
--- Version 8b szf
+
 IS
 
 	PROC_NAME VARCHAR2(40):= 'DQP_RECI_MAIL_ADDR_LINE_1'; --Recipient Address Line 1
