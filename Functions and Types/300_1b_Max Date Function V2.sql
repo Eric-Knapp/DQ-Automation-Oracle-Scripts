@@ -3,7 +3,6 @@ CREATE OR REPLACE FUNCTION DCUA166.fGETMAXDATE (DATE_FIELD_NAME IN VARCHAR2, TAB
 RETURN date
 
 -- Function to calculate latest date from TABLE
--- Version 2.1 szf
 
 AS
 
