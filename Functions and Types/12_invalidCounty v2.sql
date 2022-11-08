@@ -1,7 +1,6 @@
 CREATE OR REPLACE FUNCTION   DCUA166.finvalidCounty ( countyCode IN VARCHAR2, deployFlag VARCHAR2)
 -- input is county code to be tested
 -- output is integer = 1 if not in reference table, -1 if is in reference table
--- version 2 szf
 RETURN integer
 AS
 
