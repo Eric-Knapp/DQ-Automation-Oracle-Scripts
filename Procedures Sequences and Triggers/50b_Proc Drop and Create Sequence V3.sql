@@ -1,7 +1,6 @@
 create or replace PROCEDURE         DQP_DROP_CREATE_SEQUENCE (V_SCHEMA_NAME VARCHAR2, V_sequence_Name VARCHAR2)
 
 -- Procedure to Drop Sequence if Exists
--- Version 1.1 szf
 
 IS
     PROC_NAME VARCHAR2(40):= 'DQP_DROP_CREATE_SEQUENCE'; 
