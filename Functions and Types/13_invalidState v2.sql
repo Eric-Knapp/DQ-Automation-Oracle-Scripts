@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION   DCUA166.finvalidState ( StateCode VARCHAR2, deployFlag VARCHAR2)
 -- input is state code to be tested and deployFlag for environment
 -- output is integer = 1 if not in reference table, -1 if is in reference table
--- Version 2 szf
+
 
 RETURN integer
 
